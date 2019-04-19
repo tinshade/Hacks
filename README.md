@@ -1,4 +1,7 @@
 # REMOTE SHUTDOWN WINDWOS PC VIA EMAIL
+
+*NOTE : YOU MUST TURN ON LESS SECURE APPS FOR GOOGLE BEFORE USING THIS*
+*Here's the link. Login with the account to be used in the script and turn on less secure apps : https://myaccount.google.com/lesssecureapps*
 This is supposed to be a open-source, light-weight, Python-based automation software/script made to automate the shutdown process.
 The software/script will add itself to startup with OS (Registry Editor) and will check for mails from the registered sender(UI integration yet to be implemented) with the subject of the mail saying "Shutdown". When found, the windows machine should immediately shutdown.
 
