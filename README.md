@@ -1,4 +1,4 @@
-# REMOTE SHUTDOWN WINDWOS PC VIA EMAIL
+# REMOTE SHUTDOWN WINDOWS PC VIA EMAIL
 
 *NOTE : YOU MUST TURN ON LESS SECURE APPS FOR GOOGLE BEFORE USING THIS*
 *Here's the link. Login with the account to be used in the script and turn on less secure apps : https://myaccount.google.com/lesssecureapps*
@@ -12,7 +12,7 @@ When integrated with Google Assistant, say - "OK Google, send an email to (regis
 TO DO :-
 1. Implement UI
 2. Custom Check time
-3. Check as soon as a mail arrives
+3. Check as soon as a mail arrives {DONE : Checks every 10s}
 4. Support for Linux and Mac OS
 5. Make the software(.exe) version
 6. Make uninstaller for the software version.
