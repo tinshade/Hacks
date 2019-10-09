@@ -7,4 +7,6 @@ I did not take the time to find each and every image so I only used 4 (1 for eac
 This is a neat feature which can be accomplished without any code in Windows itself but I made this just for fun and for exploration purposes.
 
 ##NOTE##
-Give the absolute path to the images you are using. Even if they are in the same folder as the script.
+1. Give the absolute path to the images you are using. Even if they are in the same folder as the script.
+2. Download and save the LICENSE file with the script!
+3. Make sure you run "pip install -r requirements.txt" if you are missing libraries (Download the 'requirements.txt' as well)
