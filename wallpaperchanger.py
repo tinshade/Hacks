@@ -16,6 +16,5 @@
 '''
 import ctypes #This provides C compatible datatypes and allows the use of DLL files. The 'user32.dll' in particular for this case.
 
-pathToBmp = "YOUR_PATH_\\this.jpg" #Update your path here.
-SPI_SET_WALLPAPER = 20 #You could just type in 20 below to save a variable.
-ctypes.windll.user32.SystemParametersInfoW(SPI_SET_WALLPAPER, 0, pathToBmp, 0) #Using the DLL to set the wallpaper.
+path = "<ABSOLUTE_PATH>\\this.jpg" #Update your path here.
+ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 0) #Using the DLL to set the wallpaper.import ctypes
