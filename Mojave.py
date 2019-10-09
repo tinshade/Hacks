@@ -20,10 +20,10 @@ import schedule
 #Image paths
 #Absolute path is like "E:\Images\image.jpg"
 
-Morning = "C:\\Users\\Abhishek\\Desktop\\Mojave\\1.jpeg" #Morning image
-Afternoon = "C:\\Users\\Abhishek\\Desktop\\Mojave\\2.jpeg" #Afternoon image
-Evening = "C:\\Users\\Abhishek\\Desktop\\Mojave\\3.jpeg" #Evening image
-Night = "C:\\Users\\Abhishek\\Desktop\\Mojave\\4.jpeg" #Night image
+Morning = "<ABSOLUTE PATH>1.jpeg" #Morning image
+Afternoon = "<ABSOLUTE PATH>2.jpeg" #Afternoon image
+Evening = "<ABSOLUTE PATH>3.jpeg" #Evening image
+Night = "<ABSOLUTE PATH>4.jpeg" #Night image
 
 t = win10toast.ToastNotifier() #TO DISPLAY TOAST NOTIFICATIONS
 
