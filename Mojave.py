@@ -23,10 +23,17 @@ import winreg as reg
 #Image paths
 #Absolute path is like "E:\Images\image.jpg"
 
+<<<<<<< HEAD
 Morning = r"<Absolute_Path>1.jpeg" #Morning image
 Afternoon = r"<Absolute_Path>2.jpeg" #Afternoon image
 Evening = r"<Absolute_Path>3.jpeg" #Evening image
 Night = r"<Absolute_Path>4.jpeg" #Night image
+=======
+Morning = "<ABSOLUTE PATH>1.jpeg" #Morning image
+Afternoon = "<ABSOLUTE PATH>2.jpeg" #Afternoon image
+Evening = "<ABSOLUTE PATH>3.jpeg" #Evening image
+Night = "<ABSOLUTE PATH>4.jpeg" #Night image
+>>>>>>> 474763a76e0cec01b5aac5f4b93fee953ed835ef
 
 t = win10toast.ToastNotifier() #TO DISPLAY TOAST NOTIFICATIONS
 
@@ -80,6 +87,11 @@ def change():
 
 #While loop to keep the script alive in the background
 while True:
+<<<<<<< HEAD
 	change() #Will check the time and change the wallpaper every 3 hours
 	time.sleep(10800) #Sleep for 3hrs
 	
+=======
+	schedule.every(3).hours.do(change) #Will check the time and change the wallpaper every 3 hours
+	
+>>>>>>> 474763a76e0cec01b5aac5f4b93fee953ed835ef
