@@ -39,10 +39,13 @@ def get_focus():
 
         #Assigning seperate variables to each value in the above list to have more control over what is
         #being printed
-        TabTitle = s[1]
-        Website = s[2]
-        Browser = s[3]
-        print(f"You are looking at {TabTitle} on {Website} using {Browser}") #Print the final output to screen with 'f' string
+        if len(s) == 3:
+            TabTitle = s[1]
+            Website = s[2]
+            Browser = s[3]
+            print(f"You are looking at {TabTitle} on {Website} using {Browser}") #Print the final output to screen with 'f' string
+        else:
+            print("You are looking at ", in_focus)
     
     #If the application is not Google Chrome
     else:
