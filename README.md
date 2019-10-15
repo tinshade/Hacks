@@ -1,3 +1,6 @@
-# Master
-Here's all just-for-fun hacks and automations based on python.
-Look for branches, I prefer keeping the master empty!
+# Quine
+This is a basic demonstration of a quine (self-replicating virus).
+	This is a very contained and easy-to-quarentine virus so don't hesitate
+	to test it.
+
+	DISCLAIMER: For educational purposes only! 
