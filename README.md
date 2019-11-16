@@ -7,6 +7,8 @@
 		This is just a basic, ugly version of RSA implementation using Python 3.7.
 		I made this as a mini-project for my academic needs.
 		Feel free to modify and re-distribute the code but do give me credits :)
+## Note
+	Don't forget to install the dependencies with : pip install -r requirements.txt
 
 A more 'polished' and 'good-looking' version is in the Electron JS repository,
 made with Electron JS and Python.
