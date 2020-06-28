@@ -1,5 +1,7 @@
 # Infinite Safety
 ![Infinite Safety](https://raw.githubusercontent.com/tinshade/Hacks/InfiniteSafety/icon.png)
+
+
 ***FOR EDUCATIONAL PURPOSES ONLY. I AM NOT RESPONSIBLE FOR ANY DAMAGES YOU MAY CAUSE WITH THIS.***
 
 This is a small python script that will randomly boot the windows machine into safemode.
